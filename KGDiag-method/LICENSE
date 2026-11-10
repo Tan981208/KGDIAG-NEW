@@ -1,0 +1,20 @@
+KGDiag Research Artifact License
+
+Copyright (c) 2026 KGDiag authors.
+
+This artifact is provided for manuscript peer review, reproducibility inspection,
+and academic evaluation. Reviewers and program committee members may run,
+inspect, and evaluate the code for the purpose of assessing the associated
+manuscript.
+
+Redistribution, commercial use, or public mirroring of the KGDiag-authored
+portions is not permitted until the authors publish a separate public release
+license.
+
+The artifact is provided "as is", without warranty of any kind, express or
+implied, including but not limited to warranties of merchantability, fitness
+for a particular purpose, and non-infringement.
+
+Third-party portions remain governed by their original licenses. This notice
+does not restrict rights granted under those licenses. See THIRD_PARTY_NOTICES.md
+and licenses/AnomalyTransformer-MIT.txt.

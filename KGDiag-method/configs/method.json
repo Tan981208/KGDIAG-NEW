@@ -1,0 +1,8 @@
+{
+  "model": {"window": 100, "d_model": 128, "heads": 4, "temporal_layers": 2, "spatial_layers": 2, "d_ff": 512, "dropout": 0.0},
+  "training": {"epochs": 30, "batch_size": 64, "learning_rate": 0.0001, "seed": 42, "lambda_t": 0.001, "lambda_g": 0.001, "gradient_cap": 0.1},
+  "data": {"stride": 1, "invalid_policy": "error"},
+  "graph": {"top_k": 3, "min_pair_observations": 100, "min_abs_correlation": 0.7, "min_segment_abs_correlation": 0.5, "fit_segment_count": 3, "engineering_weight": 1.0, "self_weight": 1.0},
+  "scoring": {"readout": "combined", "pot": {"initial_quantile": 0.95, "tail_probability": 0.01, "min_exceedances": 50}},
+  "diagnosis": {"eta": 0.9}
+}
